@@ -28,7 +28,7 @@ public class Pedido {
     }
 
     public float calculaTotalPedido(){
-
+        return 0;
     }
 
     public int getId() {
