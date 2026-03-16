@@ -1,7 +1,11 @@
 public class Questao {
-    public int numero;
-    public String enunciado;
-    public float valor;
+    private int numero;
+    private String enunciado;
+    private float valor;
+
+    public Questao(){
+
+    }
 
     public Questao(int numero, String enunciado, float valor) {
         this.numero = numero;

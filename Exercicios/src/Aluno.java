@@ -1,22 +1,22 @@
 public class Aluno {
-    public String id, nome, curso;
-    public int ra;
+    private String nome, curso;
+    private int id, ra;
 
-    Aluno(){
+    public Aluno(){
 
     }
-    public Aluno(String id, String nome, String curso, int ra) {
+    public Aluno(int id, String nome, String curso, int ra) {
         this.id = id;
         this.nome = nome;
         this.curso = curso;
         this.ra = ra;
     }
 
-    public String getId() {
+    public int getId() {
         return this.id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -47,7 +47,7 @@ public class Aluno {
     @Override
     public String toString() {
         return "Aluno{" +
-                "id='" + this.id + '\'' +
+                "id=" + this.id + '\'' +
                 ", nome='" + this.nome + '\'' +
                 ", curso='" + this.curso + '\'' +
                 ", ra=" + this.ra +
