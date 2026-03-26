@@ -1,4 +1,6 @@
-public class Junior extends Desenvolvedor{
+package Desenvolvedor;
+
+public class Junior extends Desenvolvedor {
     private String mentor;
     public Junior(){
         super();// chama construtor da super classe

@@ -1,4 +1,6 @@
-public class Pleno extends Desenvolvedor{
+package Desenvolvedor;
+
+public class Pleno extends Desenvolvedor {
     private int projetosEntr;
 
     public  Pleno(){

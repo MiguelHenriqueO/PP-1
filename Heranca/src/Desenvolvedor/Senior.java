@@ -1,4 +1,6 @@
-public class Senior extends Desenvolvedor{
+package Desenvolvedor;
+
+public class Senior extends Desenvolvedor {
     private int verbaLider;
 
     public Senior(){
