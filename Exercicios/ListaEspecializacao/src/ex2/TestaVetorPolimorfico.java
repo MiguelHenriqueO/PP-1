@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TestaVetorPolimorfico {
+    public static void exibir(Desenvolvedor camaleao){ // no polimorfismo o tipo deve ser sempre a super classe e os args devem ser sempre as subclasses
+        camaleao.codar();
+        System.out.println(camaleao.toString() + " Bônus " + camaleao.calcularBonus());
+    }
     static void main(String[] args) {
         Junior j1 = new Junior("paulo","java",1800.00f,"robert");
 
