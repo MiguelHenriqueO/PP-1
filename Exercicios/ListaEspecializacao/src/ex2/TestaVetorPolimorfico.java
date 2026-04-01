@@ -24,7 +24,7 @@ public class TestaVetorPolimorfico {
         desenvolvedores.add(De);
 
         for (Desenvolvedor d :  desenvolvedores){
-            d.codar();
+            exibir(d);
             System.out.println("Bonûs: "+d.calcularBonus());;
             System.out.println(d.toString());
         }

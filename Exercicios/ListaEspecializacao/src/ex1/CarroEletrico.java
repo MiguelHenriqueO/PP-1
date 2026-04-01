@@ -4,6 +4,7 @@ public class CarroEletrico extends Veiculo{
     private int autonomiaBateria;
 
     public CarroEletrico() {
+        super();
     }
 
     public CarroEletrico(String marca, String modelo, float velocidade, int autonomiaBateria) {

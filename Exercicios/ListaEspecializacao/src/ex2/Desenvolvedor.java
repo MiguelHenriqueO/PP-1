@@ -5,6 +5,7 @@ public class Desenvolvedor {
     protected float salarioBase;
 
     public Desenvolvedor() {
+        super();
     }
 
     public Desenvolvedor(String nome, String linguagem, float salarioBase) {

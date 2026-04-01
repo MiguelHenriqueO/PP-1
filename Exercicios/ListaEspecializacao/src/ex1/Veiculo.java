@@ -1,6 +1,6 @@
 package ex1;
 
-public class Veiculo {
+public abstract class Veiculo {
     public String marca, modelo;
     public float velocidade;
 
@@ -45,12 +45,7 @@ public class Veiculo {
                 ", velocidade=" + velocidade +
                 '}';
     }
+    public abstract void mover();
 
-    public void mover(){
-        System.out.println("Veículo se movendo...");
-    }
-
-    public void abastecer(){
-        System.out.println("Veículo reabastecendo...");
-    }
+    public abstract void abastecer();
 }

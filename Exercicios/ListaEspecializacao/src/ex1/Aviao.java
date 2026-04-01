@@ -4,6 +4,7 @@ public class Aviao extends Veiculo{
     private float altitudeMax;
 
     public Aviao() {
+        super();
     }
 
     public Aviao(String marca, String modelo, float velocidade, float altitudeMax) {
