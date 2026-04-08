@@ -12,7 +12,7 @@ public class Whatsapp extends CanalNotificacao{
 
     @Override
     public void enviar() {
-        System.out.println("Enviando Zap para " + getDestinatario() + " Mensagem: " + getMensagem());
+        System.out.println("Enviando Zap para " + this.destinatario + " Mensagem: " + this.mensagem);
     }
 
     public String getStatusLeitura() {

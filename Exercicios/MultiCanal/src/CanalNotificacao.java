@@ -1,5 +1,5 @@
 public abstract class CanalNotificacao {
-    private String destinatario, mensagem;
+    public String destinatario, mensagem;
 
     public CanalNotificacao() {
     }

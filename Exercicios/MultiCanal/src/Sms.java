@@ -12,7 +12,7 @@ public class Sms extends CanalNotificacao{
 
     @Override
     public void enviar() {
-        System.out.println("Enviando SMS para o número " + numTelefone +  " : " + getMensagem());
+        System.out.println("Enviando SMS para o número " + this.numTelefone +  " : " + this.mensagem);
     }
 
     public int getNumTelefone() {

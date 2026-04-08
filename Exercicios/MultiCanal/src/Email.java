@@ -12,7 +12,7 @@ public class Email extends CanalNotificacao{
 
     @Override
     public void enviar() {
-        System.out.println("Enviando E-mail para" + getDestinatario()+ "com o assunto: "+ assunto+ " : " + getMensagem());
+        System.out.println("Enviando E-mail para " + this.destinatario+ " com o assunto: "+ this.assunto+ " : " + this.mensagem);
     }
 
     public String getAssunto() {
