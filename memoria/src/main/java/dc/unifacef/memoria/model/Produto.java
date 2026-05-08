@@ -9,14 +9,14 @@ public class Produto {
     public Produto() {
     }
 
-    public Produto(long id, String nome, Double preco, Integer qtde) {
+    public Produto(Long id, String nome, Double preco, Integer qtde) {
         this.id = id;
         this.nome = nome;
         this.preco = preco;
         this.qtde = qtde;
     }
 
-    public long getId() {
+    public Long getId() {
         return this.id;
     }
 
@@ -32,7 +32,7 @@ public class Produto {
         return this.qtde;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
